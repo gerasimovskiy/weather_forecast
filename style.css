@@ -31,7 +31,6 @@ h1 {
 .border {
 	border: 2px solid white;
 }
-
 ul {
 	list-style: none;
 	text-align: center;
@@ -41,47 +40,22 @@ ul {
   width: 50%;
   padding-top: 30px;
 }
-[class$="lisbon"]:hover ~ li {
-	opacity: .3;
-}
-[class$="paris"]:hover [class$="lisbon", "belgrade"]{
-	opacity: .3;
-}
-/*[class="border lisbon"]:hover~li {
-	opacity: .3;
-}
-[class="border lisbon"]:hover~li {
-	opacity: .3;
-}
-[class="border lisbon"]:hover~li {
-	opacity: .3;
-}
-[class="border lisbon"]:hover~li {
-	opacity: .3;
-}
-[class="border lisbon"]:hover~li {
-	opacity: .3;
-}
-[class="border lisbon"]:hover~li {
-	opacity: .3;
-}
-[class="border lisbon"]:hover~li {
-	opacity: .3;
-}
-[class="border lisbon"]:hover~li {
-	opacity: .3;
-}
-[class="border lisbon"]:hover~li {
-	opacity: .3;
-}*/
 li {
 	display: inline-block;
 	font-size: 20px;
-	/*color: #85EEF8;*/
 	height: 100px;
 	padding-top: 10px;
 	line-height: 37px;
 }
+ul:hover li{
+	opacity: 0.3;
+}
+ul li:hover{
+	opacity: 1;
+}
+/*ul:hover{
+	border-color: rgba(255, 255, 255, 0.2);
+}*/
 .lisbon {
 	width: 50%;
 	border-left: 4px solid white;
